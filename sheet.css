@@ -1,0 +1,62 @@
+body {
+      min-height: 100vh;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #f0f0f0;
+    }
+    .box-3d {
+      width: 340px;
+      padding: 32px 24px;
+      background: #fff;
+      border-radius: 16px;
+      box-shadow:
+        0 8px 24px rgba(0,0,0,0.18),
+        0 1.5px 3px rgba(0,0,0,0.12),
+        0 0.5px 1px rgba(0,0,0,0.10) inset;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    .box-3d h2 {
+      margin: 0 0 10px 0;
+      font-size: 1.6rem;
+      font-family: sans-serif;
+      font-weight: bold;
+      color: #333;
+      letter-spacing: 1px;
+    }
+    .upload-box {
+      width: 100%;
+      min-height: 60px;
+      border: 2px dashed #bbb;
+      border-radius: 8px;
+      background: #fafafa;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #bbb;
+      font-size: 1rem;
+      font-family: sans-serif;
+      font-style: italic;
+      margin-bottom: 10px;
+      transition: border-color 0.2s;
+    }
+    .count-btn {
+      padding: 10px 28px;
+      background: #4f8cff;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      font-family: sans-serif;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(79,140,255,0.10);
+      transition: background 0.2s;
+    }
+    .count-btn:hover {
+      background: #2563eb;
+    }
